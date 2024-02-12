@@ -1,0 +1,114 @@
+.cardHead {
+    position: absolute;
+    --width: 20vw;
+    width: var(--width);
+
+    --height: 10vh;
+    height: var(--height);
+
+    top: 10vh;
+    left: calc(50% - var(--width));
+
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.cardBody {
+    position: absolute;
+
+    --width: 40vw;
+    width: var(--width);
+
+    --height: 45vh;
+    height: var(--height);
+
+
+    top: 15vh;
+    left: calc(50% - var(--width) / 2);
+
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+
+.background {
+    position: absolute;
+
+    --width: 40vw;
+    --height: 45vh;
+
+
+    width: var(--width);
+    height: calc(var(--height) + 3vh);
+
+    top: 12vh;
+    left: calc(50% - var(--width) / 2);
+
+    border-radius: 20px;
+
+    filter: drop-shadow(11px 23px 100px #000000);
+    background-color: #D9D9D9;
+}
+
+.name {
+    position: absolute;
+
+    top: 0.5vh;
+    left: 5vh;
+
+    font-size: calc((2vh + 2vw) / 2);
+    font-family: 'Hind Madurai', sans-serif;
+
+    background-color: #ffffff00;
+}
+
+.job {
+
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+
+    position: absolute;
+    top: 2vh;
+    left: 2vh;
+
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size: 3vh;
+    background-color: #ffffff00;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    width: var(--width);
+
+    position: absolute;
+    top: 4vh;
+
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 600;
+    font-size: 2vh;
+    background-color: #ffffff00;
+}
+
+
+.left {
+    background-color: #ffffff00;
+}
+
+
+.right {
+    background-color: #ffffff00;
+}
+
+.about .left {
+    margin-left: 4vw;
+    background-color: #ffffff00;
+}
+
+
+.about .right {
+    margin-right: 4vw;
+    background-color: #ffffff00;
+}
