@@ -23,11 +23,11 @@ const Stats = () => {
                 })}
             </ul>
             <ul>
-                <li><SkillsListElem key={0} skill={<a href="https://github.com/AvtoBBus/Bus_Station_18">thisResume</a>} style={{ marginTop: "-10px", marginLeft: "50px" }} /></li>
-                <li><SkillsListElem key={1} skill={<a href="https://github.com/AvtoBBus/Bus_Station_16">Expenses</a>} style={{ marginLeft: "50px" }} /></li>
+                <li><SkillsListElem key={0} skill={<a href="https://github.com/AvtoBBus/Bus_Station_18">&#128187;thisResume</a>} style={{ marginTop: "-10px", marginLeft: "45px" }} /></li>
+                <li><SkillsListElem key={1} skill={<a href="https://github.com/AvtoBBus/Bus_Station_16">&#128187;Expenses</a>} style={{ marginLeft: "45px" }} /></li>
             </ul>
 
-            <SkillsListElem key={1} skill="GitHub:" complete={complete} style={{ position: "relative", top: "-17.5vh", left: "12vw" }} children={<a href="https://github.com/AvtoBBus">AvtoBBus</a>} />
+            <SkillsListElem skill="GitHub:" complete={complete} style={{ position: "relative", top: "-17.5vh", left: "12vw" }} children={<a href="https://github.com/AvtoBBus">AvtoBBus</a>} />
             <img src={qr} style={{ position: "relative", top: "-15vh", left: "14vw", maxWidth: "130px", maxHeight: "130px", boxShadow: "5px 5px 20px black" }} />
         </div></>
 }

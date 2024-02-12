@@ -1,0 +1,11 @@
+.footerString {
+    position: absolute;
+    top: 47vh;
+    left: -18vw;
+    width: 37vw;
+
+    font-size: calc((1.4vh + 1.4vw) / 2);
+    font-family: 'Hind Madurai', sans-serif;
+
+    background-color: #ffffff00;
+}

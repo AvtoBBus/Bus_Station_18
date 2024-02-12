@@ -3,8 +3,14 @@ import Wall from "./component/Wall";
 import Lines from "./component/Lines";
 import Stats from "./component/Stats";
 import Avatar from "./component/Avatar";
+import Study from './component/Study';
+import Abilities from './component/Abilities';
+import FooterStr from './component/FooterStr';
 
 import './style/App.css';
+
+import paperClip2 from "./data/paperClip2.png"
+
 
 function App() {
   return <>
@@ -36,11 +42,17 @@ function App() {
           <div className="cardBody">
             <div className="about">
               <div className="left">Образование</div>
-              <Wall height={1000} />
+              <Wall height="27vh" />
               <div className="right">Гибкие навыки</div>
             </div>
           </div>
+
+
           <Lines style={{ position: "absolute", top: "13.5vh", left: "-380px", backgroundColor: "#ffffff00" }} />
+          <Study />
+          <Abilities />
+          <FooterStr />
+          <img src={paperClip2} className="paperClip2" />
         </Card>
 
 

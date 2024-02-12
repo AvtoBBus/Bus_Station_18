@@ -1,0 +1,19 @@
+.main {
+    width: 100%;
+}
+
+.centerContainer {
+    position: absolute;
+    left: 30vw;
+    width: 40vw;
+}
+
+.paperClip2 {
+    position: absolute;
+
+    top: 7.94vh;
+    left: 13vw;
+
+    max-width: 150px;
+    max-height: 150px;
+}
