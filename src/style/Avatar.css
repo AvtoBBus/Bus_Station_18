@@ -36,9 +36,39 @@
 .underImgInfo li {
     list-style-type: none;
     margin-bottom: -7px;
-
-    @media screen {}
 }
+
+@media all and (max-width: 1024px) {
+
+    .paperClip {
+        top: -2.2vh;
+        left: 61vw;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .imgContainer {
+        top: 19vh;
+        left: 55vw;
+        width: 230px;
+        height: 330px;
+    }
+
+    .avatarImg {
+        position: absolute;
+        top: -4px;
+        left: -46px;
+        max-width: 330px;
+        max-height: 330px;
+    }
+
+    .underImgInfo {
+        top: 58vh;
+        left: 64vw;
+        font-size: calc((2.3vh + 2.3vw) / 2);
+    }
+}
+
 
 
 @media all and (max-width: 768px) {

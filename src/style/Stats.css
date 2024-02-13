@@ -43,6 +43,34 @@ a {
     background-color: #ffffff00;
 }
 
+@media all and (max-width: 1024px) {
+
+    .statsList {
+        position: absolute;
+        top: 36vh;
+        left: 1vw;
+
+
+
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: calc((2.5vh + 2.5vw) / 2);
+        font-weight: 600;
+
+        background-color: #ffffff00;
+    }
+
+    .qrGit {
+        position: absolute;
+        left: 18vw;
+    }
+
+    .gitContainer {
+        position: absolute;
+        top: 1vh;
+        left: 16vw;
+    }
+}
+
 
 @media all and (max-width: 768px) {
 
