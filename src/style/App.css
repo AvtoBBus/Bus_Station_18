@@ -42,6 +42,14 @@
     }
 }
 
+@media all and (max-width: 1080px) {
+    .linesContainer {
+        top: -0.2vh;
+        left: -4vw;
+        scale: 0.98;
+    }
+}
+
 
 @media all and (max-width: 1024px) {
     .centerContainer {
