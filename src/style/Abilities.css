@@ -7,18 +7,60 @@
     font-weight: 600;
 }
 
-@media all and (max-width: 1440px) {}
+@media all and (max-width: 1440px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
 
-@media all and (max-width: 1080px) {}
+@media all and (max-width: 1080px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
 
 
-@media all and (max-width: 1024px) {}
+@media all and (max-width: 1024px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
 
-@media all and (max-width: 768px) {}
+@media all and (max-width: 768px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
 
 
-@media all and (max-width: 425px) {}
+@media all and (max-width: 425px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
 
-@media all and (max-width: 375px) {}
+@media all and (max-width: 375px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
 
-@media all and (max-width: 320px) {}
+@media all and (max-width: 320px) {
+    .abilityList {
+        left: 83vw;
+        top: 96vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+}
