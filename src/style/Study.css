@@ -24,7 +24,25 @@ b {
     font-size: calc((1.6vh + 1.6vw) / 2);
 }
 
-@media all and (max-width: 1440px) {}
+@media all and (max-width: 1440px) {
+    .study {
+        top: 97vh;
+        left: 0vw;
+        width: 29vw;
+        font-size: calc((2.2vh + 2.2vw) / 2);
+    }
+
+    .directionOfStudy {
+        top: 11vh;
+        left: 2.5vw;
+        width: 30vw;
+        font-size: calc((2vh + 2vw) / 2);
+    }
+
+    b {
+        font-size: calc((2.3vh + 2.3vw) / 2);
+    }
+}
 
 @media all and (max-width: 1080px) {
     .study {
