@@ -57,9 +57,9 @@
 
 @media all and (max-width: 375px) {
     .footerString {
-        top: 122.5vh;
-        left: 5.5vw;
-        width: 141vw;
+        top: 118.5vh;
+        left: 1.5vw;
+        width: 117vw;
         font-size: calc((2.5vh + 2.5vw) / 2);
     }
 }

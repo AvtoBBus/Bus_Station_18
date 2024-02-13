@@ -51,9 +51,9 @@
 
 @media all and (max-width: 375px) {
     .abilityList {
-        left: 83vw;
+        left: 62vw;
         top: 96vh;
-        font-size: calc((3vh + 3vw) / 2);
+        font-size: calc((2.8vh + 2.8vw) / 2);
     }
 }
 
