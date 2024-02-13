@@ -43,7 +43,7 @@
 
 @media all and (max-width: 425px) {
     .abilityList {
-        left: 83vw;
+        left: 52vw;
         top: 96vh;
         font-size: calc((3vh + 3vw) / 2);
     }
@@ -52,7 +52,7 @@
 @media all and (max-width: 375px) {
     .abilityList {
         left: 62vw;
-        top: 96vh;
+        top: 94vh;
         font-size: calc((2.8vh + 2.8vw) / 2);
     }
 }
