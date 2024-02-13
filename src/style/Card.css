@@ -118,6 +118,46 @@
     background-color: #ffffff00;
 }
 
+@media all and (max-width: 1440px) {
+    .cardHead {
+        left: -4vw;
+
+        --width: 35vw;
+        width: var(--width);
+    }
+
+    .name {
+        top: 0.1vh;
+        left: 7vh;
+        font-size: calc((3vh + 3vw) / 2);
+    }
+
+    .cardBody {
+
+        left: -4vw;
+
+        --height: 57vh;
+        height: var(--height);
+    }
+
+    .background {
+        left: -4vw;
+
+
+        --height: 57vh;
+        height: var(--height);
+
+    }
+
+    .job {
+        left: 2vw;
+        top: 4vh;
+        width: 40vw;
+        font-size: 4vh;
+    }
+}
+
+
 @media all and (max-width: 1024px) {
     .cardHead {
         left: -4vw;

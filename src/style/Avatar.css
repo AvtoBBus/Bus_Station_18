@@ -38,6 +38,37 @@
     margin-bottom: -7px;
 }
 
+@media all and (max-width: 1440px) {
+
+    .paperClip {
+        top: 0.5vh;
+        left: 48vw;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+    .imgContainer {
+        top: 19vh;
+        left: 42vw;
+        width: 270px;
+        height: 330px;
+    }
+
+    .avatarImg {
+        position: absolute;
+        top: -4px;
+        left: -26px;
+        max-width: 330px;
+        max-height: 330px;
+    }
+
+    .underImgInfo {
+        top: 53vh;
+        left: 51vw;
+        font-size: calc((2vh + 2vw) / 2);
+    }
+}
+
 @media all and (max-width: 1024px) {
 
     .paperClip {

@@ -24,6 +24,25 @@
 }
 
 
+@media all and (max-width: 1440px) {
+    .centerContainer {
+        position: absolute;
+        left: 18vw;
+        width: 70vw;
+    }
+
+    .paperClip2 {
+        position: absolute;
+    }
+
+    .linesContainer {
+        top: -4.2vh;
+        left: -4vw;
+        scale: 1.3;
+    }
+}
+
+
 @media all and (max-width: 1024px) {
     .centerContainer {
         position: absolute;
