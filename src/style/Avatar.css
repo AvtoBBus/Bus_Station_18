@@ -88,7 +88,7 @@
 }
 
 
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) {
     .paperClip {
         top: 6.75vh;
         left: 54vw;

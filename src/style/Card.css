@@ -153,8 +153,7 @@
 
 
 
-
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 375px) {
     .cardHead {
 
         left: 0vw;
@@ -164,9 +163,31 @@
     }
 
     .name {
-        top: 0.5vh;
+        top: 1.5vh;
         left: 1vh;
-        font-size: calc((3vh + 3vw) / 2);
+        font-size: calc((3.2vh + 3.2vw) / 2);
+    }
+
+    .cardBody {
+        --height: 46vh;
+        height: var(--height);
+    }
+}
+
+
+
+@media (min-width: 320px) {
+    .cardHead {
+
+        left: 0vw;
+
+        --width: 60vw;
+        width: var(--width);
+    }
+
+    .name {
+        top: 1vh;
+        left: 1vh;
     }
 
     .cardBody {
