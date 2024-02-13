@@ -47,25 +47,29 @@ a {
 @media all and (max-width: 768px) {
 
     .statsList {
-        left: 4vw;
+        position: absolute;
+        top: 36vh;
+        left: 1vw;
 
-        width: 30vw;
 
+
+        font-family: 'Hind Madurai', sans-serif;
         font-size: calc((2.5vh + 2.5vw) / 2);
         font-weight: 600;
 
+        background-color: #ffffff00;
     }
 
     .qrGit {
-        display: none;
+        position: absolute;
+        left: 18vw;
     }
 
     .gitContainer {
         position: absolute;
-        top: 20vh;
-        left: -12vw;
+        top: 1vh;
+        left: 20vw;
     }
-
 }
 
 @media all and (max-width: 425px) {

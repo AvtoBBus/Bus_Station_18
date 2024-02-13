@@ -41,40 +41,35 @@
 }
 
 
-@media all and (min-width: 768px) {
-
-    .imgContainer {
-        top: 30vh;
-        left: 41vw;
-        width: 340px;
-        height: 340px;
-    }
-
-    .avatarImg {
-        position: absolute;
-        top: -40px;
-        left: -30px;
-        max-width: 400px;
-        max-height: 400px;
-    }
+@media all and (max-width: 768px) {
 
     .paperClip {
-        position: absolute;
-        top: 1.9vh;
-        left: 62vw;
+        top: -2.2vh;
+        left: 78vw;
         max-width: 500px;
         max-height: 500px;
     }
 
-
-
-    .underImgInfo {
-        top: 56vh;
-        left: 56vw;
-
-        font-size: calc((2vh + 2vw) / 2);
+    .imgContainer {
+        top: 19vh;
+        left: 68vw;
+        width: 230px;
+        height: 263px;
     }
 
+    .avatarImg {
+        position: absolute;
+        top: -4px;
+        left: -17px;
+        max-width: 270px;
+        max-height: 270px;
+    }
+
+    .underImgInfo {
+        top: 51vh;
+        left: 81vw;
+        font-size: calc((2.6vh + 2.6vw) / 2);
+    }
 }
 
 
