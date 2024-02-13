@@ -17,3 +17,49 @@
     max-width: 150px;
     max-height: 150px;
 }
+
+.linesContainer {
+    position: absolute;
+    background-color: #ffffff00;
+}
+
+
+@media (min-width: 768px) {
+    .centerContainer {
+        position: absolute;
+        left: 10vw;
+        width: 80vw;
+    }
+
+    .paperClip2 {
+        position: absolute;
+
+        top: 7.94vh;
+        left: 13vw;
+
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .linesContainer {
+        top: 4px;
+        left: 5px;
+    }
+}
+
+@media (min-width: 320px) {
+    .centerContainer {
+        position: absolute;
+        left: 10vw;
+        width: 80vw;
+    }
+
+    .paperClip2 {
+        position: absolute;
+    }
+
+    .linesContainer {
+        top: -6.2vh;
+        scale: 1.5;
+    }
+}

@@ -11,12 +11,16 @@
 .avatarImg {
     position: absolute;
     left: -42px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .paperClip {
     position: absolute;
     top: 2.43vh;
     left: 30vw;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 .underImgInfo {
@@ -32,4 +36,86 @@
 .underImgInfo li {
     list-style-type: none;
     margin-bottom: -7px;
+
+    @media screen {}
+}
+
+
+@media (min-width: 768px) {
+
+    .imgContainer {
+        top: 30vh;
+        left: 41vw;
+        width: 340px;
+        height: 340px;
+    }
+
+    .avatarImg {
+        position: absolute;
+        top: -40px;
+        left: -30px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .paperClip {
+        position: absolute;
+        top: 4.2vh;
+        left: 62vw;
+        max-width: 500px;
+        max-height: 500px;
+    }
+
+
+
+    .underImgInfo {
+        top: 56vh;
+        left: 56vw;
+
+        font-size: calc((2vh + 2vw) / 2);
+    }
+
+}
+
+
+@media (min-width: 375px) {
+    .underImgInfo {
+        top: 50vh;
+        left: 50vw;
+
+        font-size: calc((1.8vh + 1.8vw) / 2);
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .paperClip {
+        top: 6.75vh;
+        left: 54vw;
+
+        max-width: 770px;
+        max-height: 770px;
+    }
+
+    .imgContainer {
+        top: 35vh;
+        left: 39vw;
+        width: 340px;
+        height: 340px;
+    }
+
+    .avatarImg {
+        position: absolute;
+        top: -40px;
+        left: -30px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .underImgInfo {
+        top: 48vh;
+        left: 50vw;
+
+        font-size: calc((1.8vh + 1.8vw) / 2);
+    }
 }

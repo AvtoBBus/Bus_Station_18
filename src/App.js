@@ -28,14 +28,15 @@ function App() {
             </div>
           </div>
 
-
-          <Lines style={{ position: "absolute", top: "13.5vh", left: "5px", backgroundColor: "#ffffff00" }} />
+          <div className='linesContainer' >
+            <Lines style={{ position: "absolute", top: "13.5vh", left: "5px", backgroundColor: "#ffffff00" }} />
+          </div>
           <Stats />
           <Avatar />
         </Card>
 
 
-        <Card style={{ position: "absolute", top: "55vh", left: "20vw" }}>
+        {/* <Card style={{ position: "absolute", top: "55vh", left: "20vw" }}>
           <div className="cardHead" >
             <span className="name" style={{ margin: "0 5vw" }}>О себе</span>
           </div>
@@ -53,7 +54,7 @@ function App() {
           <Abilities />
           <FooterStr />
           <img src={paperClip2} className="paperClip2" />
-        </Card>
+        </Card> */}
 
 
       </div>

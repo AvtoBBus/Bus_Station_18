@@ -11,6 +11,21 @@
     background-color: #ffffff00;
 }
 
+
+.qrGit {
+    position: absolute;
+    top: 13vh;
+    left: 14vw;
+    max-width: 130px;
+    max-height: 130px;
+    box-shadow: 5px 5px 20px black;
+}
+
+
+.gitContainer {
+    background-color: #ffffff00;
+}
+
 ul {
     margin-top: 10px;
     background-color: #ffffff00;
@@ -26,4 +41,42 @@ li {
 a {
     text-decoration: none;
     background-color: #ffffff00;
+}
+
+
+@media (min-width: 768px) {
+
+    .statsList {
+        left: 4vw;
+
+        width: 30vw;
+
+        font-size: calc((2.5vh + 2.5vw) / 2);
+        font-weight: 600;
+
+    }
+
+    .qrGit {
+        display: none;
+    }
+
+    .gitContainer {
+        position: absolute;
+        top: 20vh;
+        left: -12vw;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    .qrGit {
+        display: none;
+    }
+
+    .gitContainer {
+        position: absolute;
+        top: 20vh;
+        left: -12vw;
+    }
 }
