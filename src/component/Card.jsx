@@ -4,10 +4,10 @@ import CardBackground from "./CardBackground"
 import style from "../style/Card.css"
 
 
-const Card = ({ children, style }) => {
+const Card = ({ children, className, bgName }) => {
     return <>
-        <div className="card" style={{ ...style }}>
-            <CardBackground style={style} />
+        <div className={className} style={{ ...style }}>
+            <CardBackground className={bgName} style={style} />
             {children}
         </div>
     </>

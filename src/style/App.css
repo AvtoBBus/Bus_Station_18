@@ -8,16 +8,6 @@
     width: 40vw;
 }
 
-.paperClip2 {
-    position: absolute;
-
-    top: 7.94vh;
-    left: 13vw;
-
-    max-width: 150px;
-    max-height: 150px;
-}
-
 .linesContainer {
     position: absolute;
     background-color: #ffffff00;
@@ -137,6 +127,7 @@
 
     .linesContainer {
         top: 4vh;
+        left: 2vw;
         scale: 0.72;
     }
 }

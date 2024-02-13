@@ -13,6 +13,8 @@
     background-color: #ffffff;
 }
 
+
+
 .cardBody {
     position: absolute;
 
@@ -85,36 +87,6 @@
 
 
 .right {
-    background-color: #ffffff00;
-}
-
-
-.about {
-    display: flex;
-    justify-content: space-around;
-    width: var(--width);
-
-    position: absolute;
-    top: 4vh;
-
-    font-family: 'Hind Madurai', sans-serif;
-    font-weight: 600;
-    font-size: 2vh;
-    background-color: #ffffff00;
-}
-
-
-
-.about .left {
-    margin-left: 4vw;
-    font-size: calc((1.5vh + 1.5vw) / 2);
-    background-color: #ffffff00;
-}
-
-
-.about .right {
-    margin-right: 4vw;
-    font-size: calc((1.5vh + 1.5vw) / 2);
     background-color: #ffffff00;
 }
 

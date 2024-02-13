@@ -8,15 +8,17 @@ import Abilities from './component/Abilities';
 import FooterStr from './component/FooterStr';
 
 import './style/App.css';
+import "./style/CardAbout.css";
 
 import paperClip2 from "./data/paperClip2.png"
 
 
 function App() {
+
   return <>
     <div className='main'>
       <div className="centerContainer">
-        <Card>
+        <Card className="card" bgName="background">
           <div className="cardHead">
             <span className="name">Землянов Владимир</span>
           </div>
@@ -36,11 +38,11 @@ function App() {
         </Card>
 
 
-        {/* <Card style={{ position: "absolute", top: "55vh", left: "20vw" }}>
-          <div className="cardHead" >
-            <span className="name" style={{ margin: "0 5vw" }}>О себе</span>
+        <Card className="cardAbout" bgName="backgroundAbout">
+          <div className="cardHeadAbout" >
+            <span className="nameAbout">О себе</span>
           </div>
-          <div className="cardBody">
+          <div className="cardBodyAbout">
             <div className="about">
               <div className="left">Образование</div>
               <Wall height="27vh" />
@@ -48,17 +50,18 @@ function App() {
             </div>
           </div>
 
-
-          <Lines style={{ position: "absolute", top: "13.5vh", left: "-380px", backgroundColor: "#ffffff00" }} />
+          <div className='linesContainerAbout' >
+            <Lines style={{ position: "absolute", top: "13.5vh", left: "-380px", backgroundColor: "#ffffff00" }} />
+          </div>
           <Study />
           <Abilities />
           <FooterStr />
           <img src={paperClip2} className="paperClip2" />
-        </Card> */}
+        </Card>
 
 
       </div>
-    </div>
+    </div >
   </>
 }
 

@@ -1,7 +1,7 @@
 
-const CardBackground = ({ style }) => {
+const CardBackground = ({ style, className }) => {
     return <>
-        <div className="background" />
+        <div className={className} />
     </>
 }
 
