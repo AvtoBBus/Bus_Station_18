@@ -24,7 +24,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media all and (max-width: 768px) {
     .centerContainer {
         position: absolute;
         left: 10vw;
@@ -47,11 +47,11 @@
     }
 }
 
-@media (min-width: 320px) {
+@media all and (max-width: 320px) {
     .centerContainer {
         position: absolute;
         left: 10vw;
-        width: 80vw;
+        width: 150vw;
     }
 
     .paperClip2 {
@@ -59,7 +59,7 @@
     }
 
     .linesContainer {
-        top: -6.2vh;
-        scale: 1.5;
+        top: 4vh;
+        scale: 0.72;
     }
 }

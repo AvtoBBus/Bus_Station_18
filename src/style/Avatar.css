@@ -41,7 +41,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
 
     .imgContainer {
         top: 30vh;
@@ -60,7 +60,7 @@
 
     .paperClip {
         position: absolute;
-        top: 4.2vh;
+        top: 1.9vh;
         left: 62vw;
         max-width: 500px;
         max-height: 500px;
@@ -78,9 +78,32 @@
 }
 
 
-@media (min-width: 375px) {
+@media all and (max-width: 425px) {
+
+    .paperClip {
+        top: 3.75vh;
+        left: 54vw;
+
+        max-width: 770px;
+        max-height: 770px;
+    }
+
     .underImgInfo {
-        top: 50vh;
+        top: 53vh;
+        left: 50vw;
+
+        font-size: calc((1.8vh + 1.8vw) / 2);
+    }
+}
+
+@media all and (max-width: 375px) {
+
+    .paperClip {
+        top: 5.1vh;
+    }
+
+    .underImgInfo {
+        top: 51vh;
         left: 50vw;
 
         font-size: calc((1.8vh + 1.8vw) / 2);
@@ -88,34 +111,33 @@
 }
 
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .paperClip {
-        top: 6.75vh;
-        left: 54vw;
-
-        max-width: 770px;
-        max-height: 770px;
+        top: -2.25vh;
+        left: 100vw;
+        max-width: 500px;
+        max-height: 500px;
     }
 
     .imgContainer {
-        top: 35vh;
-        left: 39vw;
-        width: 340px;
-        height: 340px;
+        top: 40vh;
+        left: 85vw;
+        width: 180px;
+        height: 180px;
     }
 
     .avatarImg {
         position: absolute;
-        top: -40px;
-        left: -30px;
-        max-width: 400px;
-        max-height: 400px;
+        top: -14px;
+        left: -10px;
+        max-width: 200px;
+        max-height: 200px;
     }
 
     .underImgInfo {
-        top: 48vh;
-        left: 50vw;
+        top: 62vh;
+        left: 108vw;
 
-        font-size: calc((1.8vh + 1.8vw) / 2);
+        font-size: calc((3vh + 3vw) / 2);
     }
 }

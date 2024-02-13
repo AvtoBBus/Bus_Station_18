@@ -44,7 +44,7 @@ a {
 }
 
 
-@media (min-width: 768px) {
+@media all and (max-width: 768px) {
 
     .statsList {
         left: 4vw;
@@ -68,7 +68,7 @@ a {
 
 }
 
-@media (min-width: 320px) {
+@media all and (max-width: 425px) {
 
     .qrGit {
         display: none;
@@ -76,7 +76,34 @@ a {
 
     .gitContainer {
         position: absolute;
-        top: 20vh;
+        top: 14 vh;
         left: -12vw;
+    }
+}
+
+@media all and (max-width: 320px) {
+
+
+    .statsList {
+        position: absolute;
+        top: 36vh;
+        left: 8vw;
+
+        width: 70vw;
+
+
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: calc((4vh + 4vw) / 2);
+        font-weight: 600;
+
+        background-color: #ffffff00;
+    }
+
+    .qrGit {
+        display: none;
+    }
+
+    .gitContainer {
+        top: 30vh;
     }
 }
