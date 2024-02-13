@@ -155,19 +155,43 @@
 
 @media all and (max-width: 375px) {
     .cardHead {
+        left: -4vw;
 
-        left: 0vw;
 
         --width: 60vw;
         width: var(--width);
     }
 
     .name {
-        top: 1.5vh;
+        top: 0.5vh;
         left: 1vh;
-        font-size: calc((3.2vh + 3.2vw) / 2);
+        font-size: calc((3.5vh + 3.5vw) / 2);
     }
 
+    .cardBody {
+
+        left: -4vw;
+
+        --height: 64vh;
+        height: var(--height);
+    }
+
+    .background {
+        left: -4vw;
+
+
+        --height: 64vh;
+        height: var(--height);
+
+    }
+
+    .job {
+        left: 0vw;
+        top: 4vh;
+        width: 100%;
+        font-size: 4vh;
+
+    }
 }
 
 

@@ -99,15 +99,34 @@
 @media all and (max-width: 375px) {
 
     .paperClip {
-        top: 5.1vh;
+        top: 4.75vh;
+        left: 89vw;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .imgContainer {
+        top: 35vh;
+        left: 58vw;
+        width: 200px;
+        height: 240px;
+    }
+
+    .avatarImg {
+        position: absolute;
+        top: -27px;
+        left: -48px;
+        max-width: 300px;
+        max-height: 300px;
     }
 
     .underImgInfo {
-        top: 51vh;
-        left: 50vw;
+        top: 65vh;
+        left: 80vw;
 
-        font-size: calc((1.8vh + 1.8vw) / 2);
+        font-size: calc((3vh + 3vw) / 2);
     }
+
 }
 
 
