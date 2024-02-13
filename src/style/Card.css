@@ -151,7 +151,46 @@
     }
 }
 
+@media all and (max-width: 425px) {
+    .cardHead {
+        left: -4vw;
 
+
+        --width: 60vw;
+        width: var(--width);
+    }
+
+    .name {
+        top: 0.8vh;
+        left: 2vh;
+        font-size: calc((3.5vh + 3.5vw) / 2);
+    }
+
+    .cardBody {
+
+        left: -4vw;
+
+        --height: 57vh;
+        height: var(--height);
+    }
+
+    .background {
+        left: -4vw;
+
+
+        --height: 57vh;
+        height: var(--height);
+
+    }
+
+    .job {
+        left: 0vw;
+        top: 4vh;
+        width: 100%;
+        font-size: 4vh;
+
+    }
+}
 
 @media all and (max-width: 375px) {
     .cardHead {

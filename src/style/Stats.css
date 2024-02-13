@@ -70,13 +70,28 @@ a {
 
 @media all and (max-width: 425px) {
 
+    .statsList {
+        position: absolute;
+        top: 36vh;
+        left: 1vw;
+
+        width: 55vw;
+
+
+        font-family: 'Hind Madurai', sans-serif;
+        font-size: calc((3vh + 3vw) / 2);
+        font-weight: 600;
+
+        background-color: #ffffff00;
+    }
+
     .qrGit {
         display: none;
     }
 
     .gitContainer {
         position: absolute;
-        top: 14vh;
+        top: 23vh;
         left: -12vw;
     }
 }

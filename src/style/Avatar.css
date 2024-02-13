@@ -81,18 +81,32 @@
 @media all and (max-width: 425px) {
 
     .paperClip {
-        top: 3.75vh;
-        left: 54vw;
+        top: 0.5vh;
+        left: 68vw;
 
-        max-width: 770px;
-        max-height: 770px;
+        max-width: 425px;
+        max-height: 425px;
+    }
+
+    .imgContainer {
+        top: 36vh;
+        left: 53vw;
+        width: 185px;
+        height: 200px;
+    }
+
+    .avatarImg {
+        position: absolute;
+        top: -27px;
+        left: -32px;
+        max-width: 250px;
+        max-height: 250px;
     }
 
     .underImgInfo {
-        top: 53vh;
-        left: 50vw;
-
-        font-size: calc((1.8vh + 1.8vw) / 2);
+        top: 60vh;
+        left: 73vw;
+        font-size: calc((2.6vh + 2.6vw) / 2);
     }
 }
 
