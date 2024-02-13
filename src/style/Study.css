@@ -31,7 +31,26 @@ b {
 
 @media all and (max-width: 1024px) {}
 
-@media all and (max-width: 768px) {}
+@media all and (max-width: 768px) {
+    .study {
+        top: 95vh;
+        left: 0vw;
+        width: 37vw;
+        font-size: calc((2.5vh + 2.5vw) / 2);
+    }
+
+    .directionOfStudy {
+        top: 15vh;
+        left: 3.5vw;
+        width: 43vw;
+        font-size: calc((2.6vh + 2.6vw) / 2);
+    }
+
+
+    b {
+        font-size: calc((2.8vh + 2.8vw) / 2);
+    }
+}
 
 
 @media all and (max-width: 425px) {
