@@ -29,10 +29,10 @@
 
 @media all and (max-width: 1024px) {
     .footerString {
-        top: 122.5vh;
-        left: 5.5vw;
-        width: 141vw;
-        font-size: calc((2.5vh + 2.5vw) / 2);
+        top: 121.5vh;
+        left: -0.5vw;
+        width: 79vw;
+        font-size: calc((2.3vh + 2.3vw) / 2);
     }
 }
 

@@ -29,7 +29,25 @@ b {
 @media all and (max-width: 1080px) {}
 
 
-@media all and (max-width: 1024px) {}
+@media all and (max-width: 1024px) {
+    .study {
+        top: 97vh;
+        left: 0vw;
+        width: 37vw;
+        font-size: calc((2.5vh + 2.5vw) / 2);
+    }
+
+    .directionOfStudy {
+        top: 12vh;
+        left: 0.5vw;
+        width: 36vw;
+        font-size: calc((2.3vh + 2.3vw) / 2);
+    }
+
+    b {
+        font-size: calc((2.8vh + 2.8vw) / 2);
+    }
+}
 
 @media all and (max-width: 768px) {
     .study {
