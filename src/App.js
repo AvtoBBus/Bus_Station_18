@@ -1,6 +1,5 @@
 import Card from './component/Card';
 import Wall from "./component/Wall";
-import Lines from "./component/Lines";
 import Stats from "./component/Stats";
 import Avatar from "./component/Avatar";
 import Study from './component/Study';
@@ -30,9 +29,6 @@ function App() {
             </div>
           </div>
 
-          <div className='linesContainer' >
-            <Lines style={{ position: "absolute", top: "13.5vh", left: "5px", backgroundColor: "#ffffff00" }} />
-          </div>
           <Stats />
           <Avatar />
         </Card>
@@ -50,9 +46,6 @@ function App() {
             </div>
           </div>
 
-          <div className='linesContainerAbout' >
-            <Lines style={{ position: "absolute", top: "13.5vh", left: "-380px", backgroundColor: "#ffffff00" }} />
-          </div>
           <Study />
           <Abilities />
           <FooterStr />

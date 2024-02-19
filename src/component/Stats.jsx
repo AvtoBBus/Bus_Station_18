@@ -9,7 +9,7 @@ const Stats = () => {
     const skills = [
         { id: 0, str: "HTML:5, CSS3" },
         { id: 1, str: "JavaScript" },
-        { id: 2, str: "React" },
+        { id: 2, str: "React, Svelte" },
         { id: 3, str: "MyProjects:" },
     ];
 
